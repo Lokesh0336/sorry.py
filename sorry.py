@@ -6,11 +6,11 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, CallbackQueryHandler, filters
 
 # Replace with your Spotify API credentials
-SPOTIFY_CLIENT_ID = "3d3ca7d9786c4e5a8595e691afe14154"
-SPOTIFY_CLIENT_SECRET = "c9f9f3ba13b14cc69bea2e405c05ab75"
+SPOTIFY_CLIENT_ID = ""
+SPOTIFY_CLIENT_SECRET = ""
 
 # Replace with your bot's token
-BOT_TOKEN = "7087446727:AAGVvWy17UM0prkrgMBv-oicg5F1qFyHBXA"
+BOT_TOKEN = ""
 
 # Initialize Spotify API client
 spotify_client = Spotify(
